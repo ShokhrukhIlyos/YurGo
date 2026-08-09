@@ -1,8 +1,8 @@
 # Surkhandarya Restaurant Seed Data
 
-This file is an early restaurant dataset for YurGo. It focuses first on restaurants and cafes in Termez and Denau that appear in public internet sources such as Tripadvisor, Yandex Maps, and restaurant-ranking pages.
+This file is an early restaurant dataset for YurGo. It focuses first on restaurants and cafes in Termez, Denau, Shurchi, and nearby Surkhandarya districts that appear in public internet sources or user-provided AI research.
 
-The Claude shared link provided by the project owner could not be accessed from this environment, so this file uses publicly reachable sources and should later be merged with the Claude list if the content is pasted or exported.
+The original Claude shared link could not be accessed from this environment, but the project owner pasted the Claude food guide into the chat. That list has been merged below and marked as `user-provided / Claude`.
 
 Updated: 2026-08-10
 
@@ -22,6 +22,16 @@ Most useful sources found:
 - Yandex Maps: most useful for local ratings, review counts, addresses, phone numbers, hours, average bills, and local feedback.
 - Top-Rated Online: useful for discovering more Termez restaurants with Google-based rating/review summaries.
 - Booking.com hotel reviews: useful as supporting evidence that some hotels/restaurants are close to restaurants and tourist sites.
+- User-provided Claude food guide: useful for specific Google Maps CIDs, coordinates, short descriptions, breakfast/lunch/dinner framing, and social links.
+
+## Merge Notes
+
+The pasted Claude guide added or improved these records:
+
+- Added exact Google Maps links and coordinates for Best Restaurant Termiz, Zeitun, Feredun Cafe, Shashlik City, and O'zbegim To'yxonasi.
+- Added new candidate places: Chinara Restaurant, Padishah Restaurant, Ardus, Afruz Restoran, Maze Coffee, Caffelito Coffee, Karvon, and Burgut Choyxona.
+- Improved food-use context: breakfast/coffee, family lunch, special dinner, traditional choyxona, banquet/event venues, and 24-hour options.
+- Conflicts to verify: some ratings from Top-Rated/Yandex differ from Claude notes because ratings change over time and may come from different map platforms.
 
 ## Restaurant List
 
@@ -31,19 +41,19 @@ Most useful sources found:
 | 2 | Malika Restaurant | Termez | Restaurant / Uzbek | Yandex: 5.0, 498 ratings; Tripadvisor: 4.5, 2 reviews | Abdulla Avloniy mahalla fuqarolar yig'ini, Termez | high | Strong local and some foreign-tourist signal. Yandex lists phone +998 76 221 00 00 and 24-hour operation. |
 | 3 | Azizbek | Termez | Restaurant / barbecue / Asian | Yandex: 4.9, 435+ ratings; Tripadvisor: 5.0, 3 reviews; Top-Rated: 4.5, 72 reviews | Alisher Navoi Street, 46 | high | Frequently appears in Termez lists. Yandex shows average bill around 30,000-35,000 UZS. |
 | 4 | Astoria / Astoria Restaurant | Termez | Restaurant | Yandex: 5.0, 484 ratings; Top-Rated: 4.4, 34 reviews | Ma'rifat mahalla fuqarolar yig'ini, Islom Karimov Street, 45 | high | Strong local rating signal. Needs menu/cuisine confirmation. |
-| 5 | Zeitun | Termez | Restaurant | Yandex: 5.0, 487 ratings | Alisher Navoi Street area, Termez | medium | Strong Yandex listing, but needs more source details and exact address confirmation. |
+| 5 | Zeitun | Termez | Family restaurant | Yandex: 5.0, 487 ratings; Claude/user guide: family-friendly | M-39 highway, Termez; coordinates 37.23198, 67.25880 | high | User guide says family-friendly, kids' play area, relaxed midday meal, closed Sundays. Google Maps CID available. |
 | 6 | Restaurant Asson | Termez | Hotel restaurant / restaurant | Tripadvisor: 4.0, 1 review; Booking.com hotel reviews mention restaurant/breakfast | 27 At-Termizi Street / Asson Hotel area | medium | Useful for tourists staying near museum/central park. Need restaurant-specific Yandex/Google data. |
 | 7 | Vostok / Восток | Termez | Asian / Middle Eastern | Tripadvisor listing with 0 reviews; Yandex nearby listing shows rating around 4.0 in Malika nearby list | Termez | low | Keep as candidate only until exact listing, reviews, and address are verified. |
 | 8 | Mayli Restobar / Mayli | Termez | Chinese / European / restaurant | Tripadvisor listing with 0 reviews; Yandex nearby list shows rating 5.0 | Termez | medium | Needs exact address, rating count, menu, and current status. |
 | 9 | Aliya Abi | Termez | Pizza restaurant | Top-Rated: 4.7, 34 reviews | Termez | medium | Good candidate for fast/casual food category. Needs exact map link and local verification. |
 | 10 | American | Termez | Fast food restaurant | Top-Rated: 4.6, 43 reviews | Termez | medium | Candidate for fast food. Needs exact map link, address, and menu. |
-| 11 | SHASHLIK CITY | Termez | Restaurant / shashlik | Top-Rated: 4.4, 60 reviews | Termez | medium | Good candidate for meat/shashlik category. Needs exact map link and menu. |
+| 11 | SHASHLIK CITY | Termez | Casual restaurant / shashlik | Top-Rated: 4.4, 60 reviews; Claude/user guide: dependable kebabs and salads | Termez; coordinates 37.24266, 67.27122 | high | User guide says modern-cafeteria feel, open 8:30 AM-11 PM. Google Maps CID available. |
 | 12 | Restoran Khan Sultan | Termez | Uzbek restaurant | Top-Rated: 4.4, 55 reviews | Termez | medium | Good candidate for national cuisine. Needs exact map link and source confirmation. |
 | 13 | City Burger | Termez | Fast food / burgers | Top-Rated: 4.4, 53 reviews | Termez | medium | Candidate for fast food / young travelers. Needs exact location and menu. |
 | 14 | Yummy Burger & Fries | Termez | Fast food / burgers | Top-Rated: 4.3, 30 reviews | Termez | medium | Candidate for fast food. Needs exact map link and current status. |
 | 15 | Bar Zolotaya Bochka | Termez | Bar / restaurant | Top-Rated: 4.2, 77 reviews | Termez | medium | Useful nightlife/bar category; check suitability for family travelers separately. |
-| 16 | Best Restaurant Termiz | Termez | Restaurant | Top-Rated: 4.2, 74 reviews | Termez | medium | Candidate based on review count. Needs exact map link and cuisine details. |
-| 17 | Feredun Cafe | Termez | Cafe / restaurant | Top-Rated: 4.2, 52 reviews | Termez | medium | Candidate for cafe category. Needs exact address and menu. |
+| 16 | Best Restaurant Termiz | Termez | Restaurant / Uzbek | Top-Rated: 4.2, 74 reviews; Claude/user guide: consistently praised | Termez; coordinates 37.24348, 67.27930 | high | User guide says Uzbek classics, kebabs/grills, elegant interior, day/night vibe. Telegram available. Google Maps CID available. |
+| 17 | Feredun Cafe | Termez | Restaurant / cafe / Turkish-leaning | Top-Rated: 4.2, 52 reviews; Claude/user guide | 67QV+7HR, Termez; coordinates 37.23825, 67.29391 | high | User guide says friendly service, large hall, banquet room, closed Sundays. Google Maps CID available. |
 | 18 | Orzu Restoran | Termez | Restaurant | Top-Rated: 4.1, 32 reviews | Termez | medium | Candidate. Needs exact map link and cuisine details. |
 | 19 | Diplomat Restaurant | Termez | Asian restaurant | Top-Rated: 4.0, 62 reviews | Termez | medium | Candidate. Needs exact map link and current status. |
 | 20 | Asl Burger | Termez / Denau needs disambiguation | Fast food / burgers | Top-Rated Termez: 3.9, 107 reviews; Yandex Denau listing: 4.3, 22 ratings | Denau listing exists; Termez listing may be separate | needs verification | Possible duplicate name across cities. Verify before app use. |
@@ -51,6 +61,33 @@ Most useful sources found:
 | 22 | AL-QASR | Termez | Asian restaurant | Top-Rated: 3.8, 36 reviews | Termez | medium | Candidate. Needs exact map link and family/price details. |
 | 23 | Veranda Oilaviy Kafe | Denau | Asian / Turkish / family cafe | Tripadvisor Denau listing: 0 reviews | Denau | medium | Tripadvisor lists it as the only Denau restaurant result. Need exact map link and local rating verification. |
 | 24 | Asl Burger | Denau | Cafe / fast food | Yandex: 4.3, 22 ratings | Surkhandarya Region, Denau | high for Denau listing | Yandex lists phone +998 99 733 33 77, delivery, takeout, terrace, parking, card payment, average bill 30,000-100,000 UZS. |
+| 25 | Chinara Restaurant | Termez | Restaurant | Claude/user guide | Termez; coordinates 37.21933, 67.25802 | user-provided | User guide says live music, lively atmosphere, opens at noon, good for evening dining, service can be inconsistent. Google Maps CID available. |
+| 26 | Padishah Restaurant | Termez | Upscale restaurant | Claude/user guide | 67Q8+HWH, Termez; coordinates 37.23836, 67.26595 | user-provided | User guide says attentive owner, private booths, wooden interior, special dinner option. Google Maps CID available. |
+| 27 | Ardus | Termez | Family restaurant | Claude/user guide: perfect 5.0 rating | 68J5+CMF, Termez; coordinates 37.23130, 67.30913 | user-provided | User guide says small, cozy, high-quality freshly prepared dishes. Google Maps CID available. |
+| 28 | Afruz Restoran | Termez | Restaurant | Claude/user guide | 68Q4+MQ2, Termez; coordinates 37.23914, 67.30689 | user-provided | User guide says open 24 hours, closed Sundays, reliable dinner option. Google Maps CID available. |
+| 29 | Maze Coffee | Termez | Cafe / coffee shop | Claude/user guide | Sug'diyona ko'chasi, Termez; coordinates 37.22929, 67.27230 | user-provided | User guide says best lattes and pastries, good morning stop, open 7 AM-2 AM. Instagram: @mazecoffee.uz. |
+| 30 | Caffelito Coffee | Termez | Coffee shop | Claude/user guide | At-Termezi ko'chasi 18, Termez; coordinates 37.23262, 67.27745 | user-provided | User guide says small specialty coffee spot, opens 7 AM. Website: caffelito.coffee. |
+| 31 | Karvon | Shurchi | Restaurant / Asian fusion | Claude/user guide: perfect 5.0 rating | Shurchi, Surxondaryo Region; coordinates 38.00434, 67.77935 | user-provided | User guide says open 24 hours. Google Maps CID available. |
+| 32 | O'zbegim To'yxonasi | Termez | Restaurant / banquet hall | Claude/user guide: 4.7 rating | Ibn Sino 16A, Termez; coordinates 37.25111, 67.29696 | user-provided | Event/wedding venue that also serves regular meals, open 24 hours. Phone: +998 90 747 10 50. |
+| 33 | Burgut Choyxona | Bandixon district | Traditional teahouse / choyxona | Claude/user guide | Bandixon district, Surxondaryo; coordinates 37.85741, 67.38668 | user-provided | Traditional regional choyxona; good for tea/breakfast countryside experience. |
+
+## User-Provided Claude Food Guide Details
+
+| # | Name | Category | Best For | Google Maps Link | Coordinates | Social / Website |
+|---|---|---|---|---|---|---|
+| 1 | Best Restaurant Termiz | Restaurant / Uzbek | Uzbek classics, kebabs, grills, polished dinner | https://maps.google.com/?cid=10946533721009579439 | 37.24348, 67.27930 | Telegram: http://t.me/Bestrestauranttermiz |
+| 2 | Chinara Restaurant | Restaurant | Evening dining, live music, lively atmosphere | https://maps.google.com/?cid=8842016143506130803 | 37.21933, 67.25802 | None found |
+| 3 | Zeitun | Family restaurant | Family lunch, kids' play area, relaxed meal | https://maps.google.com/?cid=11586215946503042583 | 37.23198, 67.25880 | None found |
+| 4 | Padishah Restaurant | Upscale restaurant | Special dinner, private booths | https://maps.google.com/?cid=1466057273958912537 | 37.23836, 67.26595 | None found |
+| 5 | Ardus | Family restaurant | Cozy fresh dishes | https://maps.google.com/?cid=16588315380224395521 | 37.23130, 67.30913 | None found |
+| 6 | Afruz Restoran | Restaurant | 24-hour dinner option | https://maps.google.com/?cid=10566609167781128739 | 37.23914, 67.30689 | None found |
+| 7 | Maze Coffee | Cafe / coffee shop | Breakfast coffee, latte, pastries | https://maps.google.com/?cid=6981266283454729848 | 37.22929, 67.27230 | Instagram: https://www.instagram.com/mazecoffee.uz |
+| 8 | Caffelito Coffee | Coffee shop | Specialty coffee, early coffee | https://maps.google.com/?cid=13452476208012658510 | 37.23262, 67.27745 | Website: http://caffelito.coffee/ |
+| 9 | Feredun Cafe | Restaurant / cafe | Turkish-leaning menu, friendly service, banquet room | https://maps.google.com/?cid=5846787365054203381 | 37.23825, 67.29391 | None found |
+| 10 | Shashlik City | Casual restaurant | Kebabs, salads, casual meal | https://maps.google.com/?cid=693327368171981303 | 37.24266, 67.27122 | None found |
+| 11 | Karvon | Restaurant / Asian fusion | 24-hour food stop in Shurchi | https://maps.google.com/?cid=13389828940300787116 | 38.00434, 67.77935 | None found |
+| 12 | O'zbegim To'yxonasi | Restaurant / banquet hall | Events, regular meals, 24-hour option | https://www.google.com/maps/place/?q=place_id:ChIJjRVCooAzNT8Rj8_Wc40NKJc | 37.25111, 67.29696 | Phone: +998 90 747 10 50 |
+| 13 | Burgut Choyxona | Traditional teahouse | Traditional countryside tea/breakfast | https://www.google.com/maps/place/?q=place_id:ChIJ48DjWQBTtTgRBCpPFs53KNg | 37.85741, 67.38668 | None found |
 
 ## Detailed Notes
 
