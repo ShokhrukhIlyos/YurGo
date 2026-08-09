@@ -71,6 +71,26 @@ The pasted Claude guide added or improved these records:
 | 32 | O'zbegim To'yxonasi | Termez | Restaurant / banquet hall | Claude/user guide: 4.7 rating | Ibn Sino 16A, Termez; coordinates 37.25111, 67.29696 | user-provided | Event/wedding venue that also serves regular meals, open 24 hours. Phone: +998 90 747 10 50. |
 | 33 | Burgut Choyxona | Bandixon district | Traditional teahouse / choyxona | Claude/user guide | Bandixon district, Surxondaryo; coordinates 37.85741, 67.38668 | user-provided | Traditional regional choyxona; good for tea/breakfast countryside experience. |
 
+## Cafes, Bakeries, Coffee Shops, And Small Eats
+
+This section tracks smaller food spots that are useful for breakfast, coffee, sweets, quick meals, snacks, and casual stops. These should become a separate YurGo category from full restaurants.
+
+| # | Name | City / Area | Type | Rating Signals | Known Address / Location | Source Confidence | Notes |
+|---|---|---|---|---|---|---|---|
+| C1 | Safia | Termez | Cafe / bakery / confectionery | Yandex: 5.0, 795 ratings on Termez listing; other Safia review pages show strong branch-level ratings | Alisher Navoiy Street, 19V, Abdulla Avloniy mahalla, Termez | high | Good for coffee, cakes, pastries, sweets, takeaway, breakfast/snack stop. Yandex lists phone +998 78 113 40 40, card payment, coffee to go, website safiabakery.uz, open until midnight. |
+| C2 | Maze Coffee | Termez | Cafe / coffee shop | Claude/user guide | Sug'diyona ko'chasi, Termez; coordinates 37.22929, 67.27230 | user-provided | Good for lattes, pastries, morning coffee; user guide says open 7 AM-2 AM. Instagram: https://www.instagram.com/mazecoffee.uz. |
+| C3 | Caffelito Coffee | Termez | Coffee shop | Claude/user guide | At-Termezi ko'chasi 18, Termez; coordinates 37.23262, 67.27745 | user-provided | Small specialty coffee spot; user guide says opens 7 AM. Website: http://caffelito.coffee/. |
+| C4 | Magadow 1 | Termez | Coffee shop / confectionery | Yandex: 5.0, 153+ ratings | Taraqqiyot Street, 1 | high | Yandex lists 24-hour operation, phone +998 90 248 48 48, delivery, takeout, parking, card payment, summer terrace, coffee to go, gift certificates, halal, chocolate-covered strawberries. |
+| C5 | Coffeemania | Termez | Coffee shop | Yandex: 5.0, 128 ratings | Imom at-Termiziy Street, Termez | medium | Needs exact address, hours, phone, menu, and map link. |
+| C6 | Aziza cafe&bakery | Termez | Cafe / coffee shop / bakery | Yandex: 4.8, 200 ratings | Alisher Navoi Street, 34 | high | Good candidate for bakery/cafe category. Needs phone, hours, menu, and photo permission. |
+| C7 | Lola Cafe | Termez | Coffee shop | Yandex: 4.5, 62 ratings | Alisher Navoiy Street, 31A, Abdulla Avloniy mahalla | medium | Needs hours, phone, menu, exact coordinates, and review themes. |
+| C8 | Zorcoff | Termez | Coffee shop / coffee to go | Yandex: 4.9, 10 ratings | Islam Karimov Street, 205A | medium | Opens early according to Yandex search result. Good candidate for quick coffee. Needs current status and menu. |
+| C9 | Halol Burger | Termez | Cafe / casual food | Yandex: 5.0, 354 ratings | Islam Karimov Street, 142 | high | Good quick-meal option, open late according to Yandex. Needs menu, average bill, delivery/takeout details. |
+| C10 | Asl Burger | Termez | Cafe / fast food | Yandex: 5.0, 775 ratings | Al Hakim At-Termiziy Street, 19Ye, Jayxun mahalla | high | Yandex lists average bill 20,000-50,000 UZS. Distinguish from Denau Asl Burger. |
+| C11 | Burger City | Termez | Cafe / fast food | Yandex: 5.0, 831 ratings | Afrosiyob Street, 39G | high | Strong local rating count. Good for casual/fast-food category. Needs menu and opening hours. |
+| C12 | Fabois | Termez | Cafe | Yandex: 5.0, 397 ratings | Yunus Rajabiy Street, 1 | high | Candidate for cafe/snack category. Needs exact menu, hours, and review themes. |
+| C13 | Durum | Termez | Cafe / casual food | Yandex: 5.0, 336 ratings | Taraqqiyot Street, 7 | high | Candidate for quick casual meals. Needs cuisine/menu details and hours. |
+
 ## User-Provided Claude Food Guide Details
 
 | # | Name | Category | Best For | Google Maps Link | Coordinates | Social / Website |
