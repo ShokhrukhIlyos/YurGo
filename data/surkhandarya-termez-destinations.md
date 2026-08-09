@@ -13,7 +13,7 @@ This table records the best coordinates found so far. Use `high` when multiple m
 | # | Place | Latitude | Longitude | Confidence | Notes |
 |---|---:|---:|---:|---|---|
 | 1 | Termez Archaeological Museum | 37.244270 | 67.282650 | high | Address also appears as Imom at-Termiziy Street 29A. |
-| 2 | Surkhandarya Regional Museum of Local Lore | TBD | TBD | needs verification | Public sources confirm address: Termez, 1 Festivalnaya Street, but an exact coordinate still needs map pin verification. |
+| 2 | Surkhandarya Regional Museum of Local Lore | TBD | TBD | user-provided pin | Public sources confirm address: Termez, 1 Festivalnaya Street. User-provided Google Maps pin: https://maps.app.goo.gl/ncS5d7cyoefdPXHYA. Coordinates still need extraction from the pin. |
 | 3 | Sultan Saodat Complex | 37.263110 | 67.309400 | high | Also spelled Sulton-Saodat. |
 | 4 | Hakim at-Termizi Complex | 37.265870 | 67.189200 | high | Also spelled Al-Hakim at-Termiziy / Hakim At-Termiziy maqbarasi. |
 | 5 | Fayaztepa Buddhist Temple Complex | 37.286389 | 67.188056 | high | DMS source: 37°17'11"N, 67°11'17"E. |
@@ -22,7 +22,7 @@ This table records the best coordinates found so far. Use `high` when multiple m
 | 8 | Kokildor-Ota Khanaka | 37.260390 | 67.298580 | high | Also spelled Kokildor Khanaka / Kokildor ota xonaqosi. |
 | 9 | Mausoleum of Sayid Waqqas | TBD | TBD | needs verification | Public tourism source describes it near Bug village and the Hakim at-Termizi area, but an exact public coordinate was not confirmed. |
 | 10 | Kampyrtepa Fortress | 37.410344 | 67.027841 | medium | Use this for the archaeological site near Termez, not the separate mountain hamlet named Kampirtepa farther west. Needs local confirmation before app release. |
-| 11 | Dalverzintepa Settlement | TBD | TBD | needs verification | Known as Shurchi district, around 60 km from Termez. Exact site coordinate still needs confirmation. |
+| 11 | Dalverzintepa Settlement | 38.099710 | 67.860890 | high | Also spelled Dalverzin Tepe / Dalvarzintepa. User-provided Google Maps pin: https://maps.app.goo.gl/nZyMN9mLkoHtF5HV8. |
 | 12 | Ayrtam / Ayritam Archaeological Site | TBD | TBD | needs verification | Official source places it about 18 km east of Termez along the Amu Darya. Exact visible visitor point still needs confirmation. |
 | 13 | Zurmala Tower / Zurmala Stupa | 37.263947 | 67.232300 | high | Also appears as Zurmala tepaligi / Zurmala Mortar. |
 | 14 | Jarkurgan Minaret | 37.476630 | 67.396280 | high | Also spelled Jarqo'rg'on minorasi; village Minor near Jarkurgan. |
@@ -31,10 +31,10 @@ This table records the best coordinates found so far. Use `high` when multiple m
 | 17 | Teshik-Tash Cave | 37.965800 | 67.156400 | high | Also spelled Teshik-Tosh / Teshik-Tash. |
 | 18 | Syrob Plane Tree | TBD | TBD | needs verification | Known around Sayrob/Syrob area in Baysun district; exact visitor point needs confirmation. |
 | 19 | Baysun / Boysun Cultural Area | 38.206100 | 67.198600 | medium | This is an area/city-level coordinate for Boysun, not a single attraction. Specific villages and event venues should be added separately. |
-| 20 | Termez Ethno-Town | TBD | TBD | needs verification | Official 2026 sources confirm the complex in Termez, but exact public coordinates were not found yet. |
+| 20 | Termez Ethno-Town | 37.227940 | 67.275068 | user-provided exact | User-provided coordinate and Yandex map link: https://yandex.uz/maps/-/CTS1NKjR. |
 | 21 | Khodjaikon Salt Cave | 37.582560 | 66.547290 | high | Also spelled Xo'jaikon tuz g'ori / Khojaikon Salt Cave. |
 | 22 | Khoja Gur Gur Ota | 38.466670 | 67.400000 | medium | Mountain/massif coordinate; exact trailhead and shrine/spring points should be collected separately. |
-| 23 | Topalang Reservoir | TBD | TBD | needs verification | Known in Sariosiyo district; app should store reservoir area plus best viewpoints separately. |
+| 23 | Topalang Reservoir | 38.640700 | 67.809700 | high | Also spelled To'palang / Tupalang / To'polon suv ombori. User-provided Google Maps pin: https://maps.app.goo.gl/8fwgzH8ss2bpGzVdA. App should store reservoir area plus best viewpoints separately. |
 | 24 | Sangardak Waterfall | 38.534860 | 67.565230 | high | Also spelled Sangardak sharsharasi. |
 | 25 | Hojaipok | TBD | TBD | needs verification | Known as cave/spring/pilgrimage-health site at the foot of Mount Kenagi; exact coordinate needs local confirmation. |
 | 26 | Panjob Gorge | 37.996740 | 67.035990 | medium | Stream/gorge area coordinate; exact trail start near Yukary-Panjob should be collected. |
