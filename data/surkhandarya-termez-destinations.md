@@ -49,6 +49,41 @@ For quick checking, paste coordinates into a browser map in this format:
 https://www.google.com/maps/search/?api=1&query=37.263110,67.309400
 ```
 
+## Map Links
+
+These links are generated from the current best coordinates where available. For unresolved places, use the search links or user-provided pins until an exact coordinate is confirmed.
+
+| # | Place | Google Maps | Yandex Maps |
+|---|---|---|---|
+| 1 | Termez Archaeological Museum | https://www.google.com/maps/search/?api=1&query=37.244270,67.282650 | https://yandex.com/maps/?ll=67.282650,37.244270&z=16&text=37.244270%2C67.282650 |
+| 2 | Surkhandarya Regional Museum of Local Lore | https://maps.app.goo.gl/ncS5d7cyoefdPXHYA | https://yandex.com/maps/?text=Surkhandarya%20Regional%20Museum%20of%20Local%20Lore%20Termez%20Festivalnaya%201 |
+| 3 | Sultan Saodat Complex | https://www.google.com/maps/search/?api=1&query=37.263110,67.309400 | https://yandex.com/maps/?ll=67.309400,37.263110&z=16&text=37.263110%2C67.309400 |
+| 4 | Hakim at-Termizi Complex | https://www.google.com/maps/search/?api=1&query=37.265870,67.189200 | https://yandex.com/maps/?ll=67.189200,37.265870&z=16&text=37.265870%2C67.189200 |
+| 5 | Fayaztepa Buddhist Temple Complex | https://www.google.com/maps/search/?api=1&query=37.286389,67.188056 | https://yandex.com/maps/?ll=67.188056,37.286389&z=16&text=37.286389%2C67.188056 |
+| 6 | Karatepa Buddhist Temple Complex | https://www.google.com/maps/search/?api=1&query=37.278840,67.183150 | https://yandex.com/maps/?ll=67.183150,37.278840&z=16&text=37.278840%2C67.183150 |
+| 7 | Kyrk-Kyz / Kirk-Kiz Fortress | https://www.google.com/maps/search/?api=1&query=37.266868,67.290251 | https://yandex.com/maps/?ll=67.290251,37.266868&z=16&text=37.266868%2C67.290251 |
+| 8 | Kokildor-Ota Khanaka | https://www.google.com/maps/search/?api=1&query=37.260390,67.298580 | https://yandex.com/maps/?ll=67.298580,37.260390&z=16&text=37.260390%2C67.298580 |
+| 9 | Mausoleum of Sayid Waqqas | https://www.google.com/maps/search/?api=1&query=Mausoleum%20of%20Sayid%20Waqqas%20Termez%20Surkhandarya | https://yandex.com/maps/?text=Mausoleum%20of%20Sayid%20Waqqas%20Termez%20Surkhandarya |
+| 10 | Kampyrtepa Fortress | https://www.google.com/maps/search/?api=1&query=37.410344,67.027841 | https://yandex.com/maps/?ll=67.027841,37.410344&z=16&text=37.410344%2C67.027841 |
+| 11 | Dalverzintepa Settlement | https://www.google.com/maps/search/?api=1&query=38.099710,67.860890 | https://yandex.com/maps/?ll=67.860890,38.099710&z=16&text=38.099710%2C67.860890 |
+| 12 | Ayrtam / Ayritam Archaeological Site | https://www.google.com/maps/search/?api=1&query=Ayritam%20archaeological%20site%20Termez | https://yandex.com/maps/?text=Ayritam%20archaeological%20site%20Termez |
+| 13 | Zurmala Tower / Zurmala Stupa | https://www.google.com/maps/search/?api=1&query=37.263947,67.232300 | https://yandex.com/maps/?ll=67.232300,37.263947&z=16&text=37.263947%2C67.232300 |
+| 14 | Jarkurgan Minaret | https://www.google.com/maps/search/?api=1&query=37.476630,67.396280 | https://yandex.com/maps/?ll=67.396280,37.476630&z=16&text=37.476630%2C67.396280 |
+| 15 | Bridge of Alexander / Gisht-Kuprik | https://www.google.com/maps/search/?api=1&query=Gisht-Kuprik%20Bridge%20Kumkurgan%20Surkhandarya | https://yandex.com/maps/?text=Gisht-Kuprik%20Bridge%20Kumkurgan%20Surkhandarya |
+| 16 | Zarautsay Petroglyphs | https://www.google.com/maps/search/?api=1&query=39.250000,66.666667 | https://yandex.com/maps/?ll=66.666667,39.250000&z=13&text=39.250000%2C66.666667 |
+| 17 | Teshik-Tash Cave | https://www.google.com/maps/search/?api=1&query=37.965800,67.156400 | https://yandex.com/maps/?ll=67.156400,37.965800&z=16&text=37.965800%2C67.156400 |
+| 18 | Syrob Plane Tree | https://www.google.com/maps/search/?api=1&query=Syrob%20Plane%20Tree%20Sayrob%20Baysun | https://yandex.com/maps/?text=Syrob%20Plane%20Tree%20Sayrob%20Baysun |
+| 19 | Baysun / Boysun Cultural Area | https://www.google.com/maps/search/?api=1&query=38.206100,67.198600 | https://yandex.com/maps/?ll=67.198600,38.206100&z=13&text=38.206100%2C67.198600 |
+| 20 | Termez Ethno-Town | https://www.google.com/maps/search/?api=1&query=37.227940,67.275068 | https://yandex.uz/maps/-/CTS1NKjR |
+| 21 | Khodjaikon Salt Cave | https://www.google.com/maps/search/?api=1&query=37.582560,66.547290 | https://yandex.com/maps/?ll=66.547290,37.582560&z=16&text=37.582560%2C66.547290 |
+| 22 | Khoja Gur Gur Ota | https://www.google.com/maps/search/?api=1&query=38.466670,67.400000 | https://yandex.com/maps/?ll=67.400000,38.466670&z=13&text=38.466670%2C67.400000 |
+| 23 | Topalang Reservoir | https://www.google.com/maps/search/?api=1&query=38.640700,67.809700 | https://yandex.com/maps/?ll=67.809700,38.640700&z=13&text=38.640700%2C67.809700 |
+| 24 | Sangardak Waterfall | https://www.google.com/maps/search/?api=1&query=38.534860,67.565230 | https://yandex.com/maps/?ll=67.565230,38.534860&z=16&text=38.534860%2C67.565230 |
+| 25 | Hojaipok | https://www.google.com/maps/search/?api=1&query=Hojaipok%20cave%20Surkhandarya | https://yandex.com/maps/?text=Hojaipok%20cave%20Surkhandarya |
+| 26 | Panjob Gorge | https://www.google.com/maps/search/?api=1&query=37.996740,67.035990 | https://yandex.com/maps/?ll=67.035990,37.996740&z=14&text=37.996740%2C67.035990 |
+| 27 | Kyzyl Canyon | https://www.google.com/maps/search/?api=1&query=Kyzyl%20Canyon%20Baysun%20Surkhandarya | https://yandex.com/maps/?text=Kyzyl%20Canyon%20Baysun%20Surkhandarya |
+| 28 | Surkhan State Nature Reserve | https://www.google.com/maps/search/?api=1&query=Surkhan%20State%20Nature%20Reserve%20Surkhandarya | https://yandex.com/maps/?text=Surkhan%20State%20Nature%20Reserve%20Surkhandarya |
+
 ## Region Overview
 
 - Region: Surkhandarya
