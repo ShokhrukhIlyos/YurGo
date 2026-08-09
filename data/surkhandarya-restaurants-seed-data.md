@@ -37,7 +37,7 @@ The pasted Claude guide added or improved these records:
 
 | # | Name | City / Area | Type / Cuisine | Rating Signals | Known Address / Location | Source Confidence | Notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Vohas | Termez | Restaurant | Yandex: 5.0, 658 ratings | Imom at-Termiziy Street, 12 | high | Strong local rating signal. Needs Google Maps link, menu, phone, hours, average bill, and feedback themes. |
+| 1 | Vohas | Termez | Modern-cuisine restaurant / dessert / coffee | Google: 3.6, 48 reviews, UZS 100,000-150,000 per person; earlier Yandex search showed stronger rating signal | 67F9+844, Termez; near old tax office and regional hokimiyat; coordinates 37.23096, 67.27704 | high | Named after Lake Vohas in Termez. Modern design and unusual menu concept. Mixed reviews: strong desserts/design/atmosphere, but recurring slow-service and price-value complaints. Phone +998 99 274 70 70. Instagram: https://www.instagram.com/vohas.rest/. |
 | 2 | Malika Restaurant | Termez | Restaurant / Uzbek | Yandex: 5.0, 498 ratings; Tripadvisor: 4.5, 2 reviews | Abdulla Avloniy mahalla fuqarolar yig'ini, Termez | high | Strong local and some foreign-tourist signal. Yandex lists phone +998 76 221 00 00 and 24-hour operation. |
 | 3 | Azizbek | Termez | Restaurant / barbecue / Asian | Yandex: 4.9, 435+ ratings; Tripadvisor: 5.0, 3 reviews; Top-Rated: 4.5, 72 reviews | Alisher Navoi Street, 46 | high | Frequently appears in Termez lists. Yandex shows average bill around 30,000-35,000 UZS. |
 | 4 | Astoria / Astoria Restaurant | Termez | Restaurant | Yandex: 5.0, 484 ratings; Top-Rated: 4.4, 34 reviews | Ma'rifat mahalla fuqarolar yig'ini, Islom Karimov Street, 45 | high | Strong local rating signal. Needs menu/cuisine confirmation. |
@@ -113,14 +113,52 @@ This section tracks smaller food spots that are useful for breakfast, coffee, sw
 
 ### Vohas
 
-- Strongest Yandex signal among found Termez restaurants: 5.0 rating with hundreds of ratings.
-- Known address: Imom at-Termiziy Street, 12.
-- Good candidate for YurGo "popular local restaurants in Termez" module.
-- Needs: exact coordinates, phone, hours, menu, cuisine type, family room availability, review themes.
+- Named after Lake Vohas in Termez.
+- Positioned as a modern-cuisine restaurant with a distinctive/unusual menu concept. Local description from user research: "the most unusual and unique menu in Termez."
+- Location: near the old tax office building, close to the regional hokimiyat/governor's office building.
+- Google address: 67F9+844, Termez, Surxondaryo Region, Uzbekistan.
+- Coordinates: 37.23096, 67.27704.
+- Google Maps link: https://maps.google.com/?cid=6144146671167542706.
+- Phone: +998 99 274 70 70.
+- Instagram: https://www.instagram.com/vohas.rest/.
+- Hours: 8:30 AM-11:00 PM daily.
+- Breakfast service: 8:00 AM-12:00 PM.
+- Google price range: UZS 100,000-150,000 per person, reported by 18 people.
+- Google rating: 3.6 from 48 reviews, which is noticeably more mixed than many other Termez food spots in this dataset.
+- Earlier Yandex search results showed a stronger Vohas rating signal, so ratings should be rechecked before publishing.
+
+Review themes:
+
+- Positive: desserts, ice baklava, fruit platter, modern design, clean interior, good music, comfortable atmosphere, kind staff, mini steak sandwiches, crispy fries, tea options, and suitability for families, couples, groups, and vegetarians.
+- Negative: slow service is a recurring complaint; some dishes may take a long time; at least one reviewer said prices felt much higher than comparable places without matching service quality.
+
+Google attributes captured:
+
+- Service options: outdoor seating, delivery, takeout, dine-in, onsite services.
+- Popular for: lunch, dinner, solo dining.
+- Offerings: cocktails, coffee, halal food, late-night food, organic dishes, private dining room, quick bite, small plates, vegan options.
+- Dining options: breakfast, lunch, dinner, catering, counter service, dessert, seating, table service.
+- Amenities: bar onsite, restroom, Wi-Fi, free Wi-Fi.
+- Atmosphere: casual, cozy, quiet.
+- Crowd: family-friendly, groups.
+- Planning: accepts reservations.
+- Payments: credit cards, debit cards, NFC mobile payments.
+- Children: good for kids, high chairs, kids' menu.
+- Parking: free parking garage, free parking lot, free street parking, on-site parking, usually plenty of parking.
+- Accessibility: wheelchair accessible entrance, parking lot, restroom, and seating. Google text also listed assistive hearing loop; verify locally because this may be a map-attribute error.
+
+YurGo recommendation:
+
+- Keep Vohas as a stylish modern/dessert/coffee option, not as an unqualified "best restaurant."
+- Show a balanced note: good for desserts and atmosphere, but service speed and price-value should be checked.
+- Useful categories: dessert, coffee, modern restaurant, family-friendly, vegetarian options, breakfast, dinner, delivery, takeout.
 
 Sources:
 
 - Yandex Termez restaurant search: https://yandex.com/maps/10338/termez/search/Restaurants/
+- Google Maps CID: https://maps.google.com/?cid=6144146671167542706
+- Instagram: https://www.instagram.com/vohas.rest/
+- User-provided Google Maps text export and review summary, 2026-08-10.
 
 ### Malika Restaurant
 
