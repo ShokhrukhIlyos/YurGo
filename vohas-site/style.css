@@ -500,6 +500,10 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
 
 .feedback-fab:hover { transform: translateY(-2px); background: var(--gold); color: #1a1510; }
 
+.feedback-overlay[hidden] {
+  display: none;
+}
+
 .feedback-overlay {
   position: fixed;
   inset: 0;
