@@ -70,11 +70,21 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  letter-spacing: 0.12em;
-  color: var(--gold-bright);
+  display: inline-flex;
   text-decoration: none;
+  line-height: 0;
+}
+
+.logo img {
+  height: 44px;
+  width: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.footer-inner .logo img {
+  height: 52px;
+  width: 52px;
 }
 
 .nav {
@@ -389,7 +399,6 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
   justify-content: space-between;
 }
 
-.footer-inner .logo { font-size: 1.3rem; }
 .footer-inner p { margin: 0.2rem 0; color: var(--text-muted); font-size: 0.9rem; }
 
 .footer-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
