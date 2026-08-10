@@ -2,9 +2,15 @@ const translations = {
   en: {
     'nav.about': 'About',
     'nav.menu': 'Menu',
+    'nav.fullMenu': 'Full Menu',
     'nav.gallery': 'Gallery',
     'nav.visit': 'Visit',
     'header.cta': 'Call to Reserve',
+
+    'fullmenu.eyebrow': 'A Taste of Vohas',
+    'fullmenu.title': 'The Full Menu',
+    'fullmenu.lead': 'Every dish, with photos and prices. Prices are in Uzbek Som (UZS) and are subject to change.',
+    'fullmenu.tableLabel': 'Table',
 
     'hero.eyebrow': 'Termez, Uzbekistan',
     'hero.tagline': 'Modern flavors on the shore of tradition — breakfast, coffee, Uzbek & European mains, steaks, sushi and desserts, all under one roof.',
@@ -93,9 +99,15 @@ const translations = {
   ru: {
     'nav.about': 'О нас',
     'nav.menu': 'Меню',
+    'nav.fullMenu': 'Полное меню',
     'nav.gallery': 'Галерея',
     'nav.visit': 'Как добраться',
     'header.cta': 'Позвонить и забронировать',
+
+    'fullmenu.eyebrow': 'Вкус Vohas',
+    'fullmenu.title': 'Полное меню',
+    'fullmenu.lead': 'Все блюда с фото и ценами. Цены указаны в узбекских сумах (UZS) и могут изменяться.',
+    'fullmenu.tableLabel': 'Столик',
 
     'hero.eyebrow': 'Термез, Узбекистан',
     'hero.tagline': 'Современные вкусы на берегу традиций — завтраки, кофе, узбекские и европейские блюда, стейки, суши и десерты под одной крышей.',
@@ -184,9 +196,15 @@ const translations = {
   uz: {
     'nav.about': 'Biz haqimizda',
     'nav.menu': 'Menyu',
+    'nav.fullMenu': "To'liq menyu",
     'nav.gallery': 'Galereya',
     'nav.visit': 'Manzil',
     'header.cta': "Bron qilish uchun qo'ng'iroq qiling",
+
+    'fullmenu.eyebrow': "Vohas ta'mi",
+    'fullmenu.title': "To'liq menyu",
+    'fullmenu.lead': "Barcha taomlar surat va narxlari bilan. Narxlar o'zbek so'mida (UZS) ko'rsatilgan va o'zgarishi mumkin.",
+    'fullmenu.tableLabel': 'Stol',
 
     'hero.eyebrow': "Termiz, O'zbekiston",
     'hero.tagline': "An'ana sohilidagi zamonaviy ta'mlar — nonushta, qahva, o'zbek va yevropa taomlari, steyklar, sushi va desertlar bir tom ostida.",

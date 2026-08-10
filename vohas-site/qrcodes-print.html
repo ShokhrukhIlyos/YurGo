@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vohas Table QR Codes — Print Sheet</title>
+<style>
+  @page { size: A4; margin: 10mm; }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; margin: 0; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6mm;
+  }
+  .card {
+    border: 1px dashed #999;
+    border-radius: 8px;
+    padding: 6mm 4mm;
+    text-align: center;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .card img { width: 100%; height: auto; display: block; }
+  .card .label { margin-top: 3mm; font-weight: bold; font-size: 13pt; }
+  .card .sub { font-size: 8pt; color: #666; margin-top: 1mm; }
+  @media print { .card { border-color: #ccc; } }
+</style>
+</head>
+<body>
+  <div class="grid" id="grid"></div>
+  <script>
+    const grid = document.getElementById('grid');
+    for (let i = 1; i <= 50; i++) {
+      const table = String(i).padStart(2, '0');
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <img src="assets/qrcodes/table-${table}.png" alt="Table ${table} QR code">
+        <div class="label">Table ${table}</div>
+        <div class="sub">Scan for the Vohas menu</div>`;
+      grid.appendChild(card);
+    }
+  </script>
+</body>
+</html>

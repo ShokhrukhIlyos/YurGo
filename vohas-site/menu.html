@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Menu | Vohas</title>
+<meta name="description" content="The full Vohas menu — breakfast, coffee, salads, soups, mains, steaks, pizza, burgers, kebabs, sushi and desserts, with photos and prices.">
+<link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="assets/logo.jpg" alt="Vohas"></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="menu.html" class="active-link" data-i18n="nav.fullMenu">Full Menu</a>
+      <a href="index.html#gallery" data-i18n="nav.gallery">Gallery</a>
+      <a href="index.html#visit" data-i18n="nav.visit">Visit</a>
+    </nav>
+    <div class="lang-switch" id="langSwitch">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="ru">RU</button>
+      <button type="button" class="lang-btn" data-lang="uz">UZ</button>
+    </div>
+    <a class="btn btn-ghost header-cta" href="tel:+998992747070" data-i18n="header.cta">Call to Reserve</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="menu-page-hero">
+  <div class="container">
+    <p class="eyebrow center" data-i18n="fullmenu.eyebrow">A Taste of Vohas</p>
+    <h1 class="center" data-i18n="fullmenu.title">The Full Menu</h1>
+    <p class="section-lead center" data-i18n="fullmenu.lead">Every dish, with photos and prices. Prices are in Uzbek Som (UZS) and are subject to change.</p>
+    <p class="table-badge" id="tableBadge" hidden></p>
+  </div>
+</section>
+
+<main>
+  <section class="section" id="fullmenu">
+    <div class="container">
+      <div class="menu-tabs" id="menuTabs" role="tablist">
+        <button class="tab-btn active" data-tab="breakfast" role="tab" aria-selected="true" data-i18n="tab.breakfast">Breakfast</button>
+        <button class="tab-btn" data-tab="drinks" role="tab" aria-selected="false" data-i18n="tab.drinks">Coffee &amp; Drinks</button>
+        <button class="tab-btn" data-tab="starters" role="tab" aria-selected="false" data-i18n="tab.starters">Salads &amp; Soups</button>
+        <button class="tab-btn" data-tab="mains" role="tab" aria-selected="false" data-i18n="tab.mains">Mains &amp; Steaks</button>
+        <button class="tab-btn" data-tab="casual" role="tab" aria-selected="false" data-i18n="tab.casual">Pizza, Burgers &amp; Kebabs</button>
+        <button class="tab-btn" data-tab="sushi" role="tab" aria-selected="false" data-i18n="tab.sushi">Sushi &amp; Rolls</button>
+      </div>
+
+      <div class="menu-panels" id="menuPanels"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="logo" href="index.html"><img src="assets/logo.jpg" alt="Vohas"></a>
+      <p data-i18n="footer.tagline">Termez, Uzbekistan</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="menu.html" data-i18n="nav.fullMenu">Full Menu</a>
+      <a href="index.html#gallery" data-i18n="nav.gallery">Gallery</a>
+      <a href="index.html#visit" data-i18n="nav.visit">Visit</a>
+      <a href="https://www.instagram.com/vohas.rest/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <p class="footer-note">&copy; <span id="year"></span> Vohas. <span data-i18n="footer.note">Menu, prices and hours are approximate and subject to change.</span></p>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="menu-data.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>
