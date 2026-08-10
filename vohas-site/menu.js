@@ -96,6 +96,16 @@ function setLanguage(lang) {
     if (dict[key] !== undefined) el.textContent = dict[key];
   });
 
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+    const key = el.dataset.i18nPlaceholder;
+    if (dict[key] !== undefined) el.setAttribute('placeholder', dict[key]);
+  });
+
+  document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
+    const key = el.dataset.i18nAria;
+    if (dict[key] !== undefined) el.setAttribute('aria-label', dict[key]);
+  });
+
   if (table) tableBadge.textContent = `${dict['fullmenu.tableLabel']} ${table}`;
 
   langButtons.forEach((btn) => {

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Admin | Vohas</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-wrap">
+  <header class="admin-header">
+    <a class="logo" href="index.html"><img src="assets/logo.jpg" alt="Vohas"></a>
+    <h1>Feedback Dashboard</h1>
+  </header>
+
+  <div id="loginView" class="admin-card admin-login">
+    <h2>Admin Access</h2>
+    <p class="admin-muted">Enter the admin key to view feedback.</p>
+    <input id="adminKeyInput" type="password" placeholder="Admin key" autocomplete="off">
+    <button id="loginBtn" class="btn btn-primary" type="button">Unlock</button>
+    <p id="loginError" class="admin-error" hidden>Invalid key.</p>
+  </div>
+
+  <div id="dashboardView" hidden>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-value" id="statTotal">0</span>
+        <span class="stat-label">Total Feedback</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="statAvg">0.0</span>
+        <span class="stat-label">Average Rating</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="statWeek">0</span>
+        <span class="stat-label">Last 7 Days</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="statLow">0</span>
+        <span class="stat-label">1–2 Star (needs attention)</span>
+      </div>
+    </div>
+
+    <div class="admin-card">
+      <h3>Rating Breakdown</h3>
+      <div id="ratingBars" class="rating-bars"></div>
+    </div>
+
+    <div class="admin-card">
+      <h3>By Table</h3>
+      <div id="tableBreakdown" class="table-breakdown"></div>
+    </div>
+
+    <div class="admin-card">
+      <div class="feedback-list-head">
+        <h3>All Feedback</h3>
+        <div class="feedback-filters">
+          <select id="filterRating">
+            <option value="">All ratings</option>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+          </select>
+          <button id="refreshBtn" class="btn btn-outline" type="button">Refresh</button>
+        </div>
+      </div>
+      <div id="feedbackList" class="feedback-list"></div>
+    </div>
+  </div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

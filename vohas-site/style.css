@@ -476,3 +476,117 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
   .header-inner { flex-wrap: wrap; }
   .lang-switch { order: 3; }
 }
+
+/* Feedback */
+.feedback-fab {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  background: var(--surface);
+  color: var(--gold-bright);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.feedback-fab:hover { transform: translateY(-2px); background: var(--gold); color: #1a1510; }
+
+.feedback-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  background: rgba(10, 8, 6, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.feedback-modal {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem 1.75rem;
+}
+
+.feedback-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.9rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.feedback-close:hover { color: var(--gold-bright); }
+
+.feedback-modal h3 { margin-bottom: 0.35rem; }
+.feedback-sub { color: var(--text-muted); margin: 0 0 1.25rem; font-size: 0.9rem; }
+
+.feedback-stars {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--border);
+  padding: 0;
+  line-height: 1;
+  transition: color 0.15s ease;
+}
+
+.star-btn.filled { color: var(--gold); }
+
+.feedback-textarea,
+.feedback-input {
+  width: 100%;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.9rem;
+  resize: vertical;
+}
+
+.feedback-textarea:focus,
+.feedback-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.feedback-error {
+  color: var(--terracotta);
+  font-size: 0.85rem;
+  margin: -0.3rem 0 0.9rem;
+}
+
+.feedback-submit { width: 100%; justify-content: center; }
+
+@media (max-width: 480px) {
+  .feedback-fab span { display: none; }
+  .feedback-fab { padding: 0.85rem; }
+}
+
