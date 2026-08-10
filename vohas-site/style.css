@@ -523,8 +523,14 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
 
 .feedback-close {
   position: absolute;
-  top: 0.75rem;
-  right: 0.9rem;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
   background: none;
   border: none;
   color: var(--text-muted);
