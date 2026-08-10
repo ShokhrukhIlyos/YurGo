@@ -26,7 +26,7 @@ if (table) {
 }
 
 // Build menu panels from MENU_ITEMS (menu-data.js)
-const CATEGORIES = ['breakfast', 'drinks', 'starters', 'mains', 'casual', 'sushi'];
+const CATEGORIES = ['breakfast', 'bar', 'salads', 'soups', 'mains', 'steaks', 'pasta', 'fastfood', 'pizza', 'sushi', 'kebabs', 'company', 'sides', 'bread'];
 const panelsRoot = document.getElementById('menuPanels');
 
 CATEGORIES.forEach((cat, i) => {
@@ -42,7 +42,7 @@ CATEGORIES.forEach((cat, i) => {
     card.className = 'menu-photo-card';
     card.innerHTML = `
       <div class="mpc-img">
-        <img src="assets/menu/${item.img}" alt="${item.name}" loading="lazy"
+        <img src="assets/menu/${item.img || 'placeholder.svg'}" alt="${item.name}" loading="lazy"
              onerror="this.onerror=null;this.src='assets/menu/placeholder.svg'">
       </div>
       <div class="mpc-body">
