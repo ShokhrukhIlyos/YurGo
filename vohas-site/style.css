@@ -170,7 +170,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0 0
 .btn-primary { background: var(--gold); color: #1a1510; }
 .btn-primary:hover { background: var(--gold-bright); }
 
-.btn-outline { border-color: var(--border); color: var(--text); }
+.btn-outline { background: transparent; border-color: var(--border); color: var(--text); }
 .btn-outline:hover { border-color: var(--gold); color: var(--gold-bright); }
 
 .btn-ghost { border-color: var(--gold); color: var(--gold-bright); padding: 0.55rem 1.25rem; }

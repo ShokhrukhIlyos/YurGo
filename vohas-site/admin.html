@@ -15,60 +15,65 @@
 <div class="admin-wrap">
   <header class="admin-header">
     <a class="logo" href="index.html"><img src="assets/logo.jpg" alt="Vohas"></a>
-    <h1>Feedback Dashboard</h1>
+    <h1 data-i18n="admin.title">Feedback Dashboard</h1>
+    <div class="lang-switch" id="langSwitch">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="ru">RU</button>
+      <button type="button" class="lang-btn" data-lang="uz">UZ</button>
+    </div>
   </header>
 
   <div id="loginView" class="admin-card admin-login">
-    <h2>Admin Access</h2>
-    <p class="admin-muted">Enter the admin key to view feedback.</p>
-    <input id="adminKeyInput" type="password" placeholder="Admin key" autocomplete="off">
-    <button id="loginBtn" class="btn btn-primary" type="button">Unlock</button>
-    <p id="loginError" class="admin-error" hidden>Invalid key.</p>
+    <h2 data-i18n="admin.loginTitle">Admin Access</h2>
+    <p class="admin-muted" data-i18n="admin.loginSub">Enter the admin key to view feedback.</p>
+    <input id="adminKeyInput" type="password" data-i18n-placeholder="admin.keyPlaceholder" placeholder="Admin key" autocomplete="off">
+    <button id="loginBtn" class="btn btn-primary" type="button" data-i18n="admin.unlock">Unlock</button>
+    <p id="loginError" class="admin-error" hidden data-i18n="admin.invalidKey">Invalid key.</p>
   </div>
 
   <div id="dashboardView" hidden>
     <div class="stats-grid">
       <div class="stat-card">
         <span class="stat-value" id="statTotal">0</span>
-        <span class="stat-label">Total Feedback</span>
+        <span class="stat-label" data-i18n="admin.statTotal">Total Feedback</span>
       </div>
       <div class="stat-card">
         <span class="stat-value" id="statAvg">0.0</span>
-        <span class="stat-label">Average Rating</span>
+        <span class="stat-label" data-i18n="admin.statAvg">Average Rating</span>
       </div>
       <div class="stat-card">
         <span class="stat-value" id="statWeek">0</span>
-        <span class="stat-label">Last 7 Days</span>
+        <span class="stat-label" data-i18n="admin.statWeek">Last 7 Days</span>
       </div>
       <div class="stat-card">
         <span class="stat-value" id="statLow">0</span>
-        <span class="stat-label">1–2 Star (needs attention)</span>
+        <span class="stat-label" data-i18n="admin.statLow">1–2 Star (needs attention)</span>
       </div>
     </div>
 
     <div class="admin-card">
-      <h3>Rating Breakdown</h3>
+      <h3 data-i18n="admin.ratingBreakdown">Rating Breakdown</h3>
       <div id="ratingBars" class="rating-bars"></div>
     </div>
 
     <div class="admin-card">
-      <h3>By Table</h3>
+      <h3 data-i18n="admin.byTable">By Table</h3>
       <div id="tableBreakdown" class="table-breakdown"></div>
     </div>
 
     <div class="admin-card">
       <div class="feedback-list-head">
-        <h3>All Feedback</h3>
+        <h3 data-i18n="admin.allFeedback">All Feedback</h3>
         <div class="feedback-filters">
           <select id="filterRating">
-            <option value="">All ratings</option>
-            <option value="5">5 stars</option>
-            <option value="4">4 stars</option>
-            <option value="3">3 stars</option>
-            <option value="2">2 stars</option>
-            <option value="1">1 star</option>
+            <option value="" data-i18n="admin.allRatings">All ratings</option>
+            <option value="5" data-i18n="admin.stars5">5 stars</option>
+            <option value="4" data-i18n="admin.stars4">4 stars</option>
+            <option value="3" data-i18n="admin.stars3">3 stars</option>
+            <option value="2" data-i18n="admin.stars2">2 stars</option>
+            <option value="1" data-i18n="admin.stars1">1 star</option>
           </select>
-          <button id="refreshBtn" class="btn btn-outline" type="button">Refresh</button>
+          <button id="refreshBtn" class="btn btn-outline" type="button" data-i18n="admin.refresh">Refresh</button>
         </div>
       </div>
       <div id="feedbackList" class="feedback-list"></div>
